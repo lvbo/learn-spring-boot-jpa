@@ -1,0 +1,53 @@
+.gradle
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+logs/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+!gradle/wrapper/gradle-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# eclipse config file
+.externalToolBuilders/
+.settings/
+.mymetadata
+.classpath
+.project
+.apt_generated
+.factorypath
+.springBeans
+
+
+# idea config file
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# mysql workbench bak file
+*.bak
+
+# compliled dirctory
+bin/
+out/
+WebRoot/WEB-INF/classes/
+buildJenkinsfile/
+dist/
+target/
+
+src/main/resources/global_config.json
+.DS_Store
